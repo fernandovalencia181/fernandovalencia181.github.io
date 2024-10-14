@@ -6,40 +6,53 @@ box-sizing: border-box;
 body {
 font-family: Arial;
 padding: 10px;
-background: #42f5a1;
+background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/06/lenguaje-programacion.jpg?tf=3840x");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
 }
 
 p {
     font-family: sans-serif;
     font-size: 20px;
+    color: #fffd;
 }
 
 samp {
-    color: #aaa
+    color: #aaaa;
+}
+
+h2 {
+    color: #f11c;
+}
+
+h4 {
+    color: #1ffb;
 }
 
 /* Header/Blog Title */
 .header {
 padding: 30px;
 text-align: center;
-background: white;
+background: #111b;
 }
 
 .header h1 {
 font-size: 50px;
+color: #ffff;
 }
 
 /* Style the top navigation bar */
 .topnav {
 overflow: hidden;
-background-color: #333;
+background-color: #111e;
 }
 
 /* Style the topnav links */
 .topnav a {
 float: left;
 display: block;
-color: #f2f2f2;
+color: #fffa;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -63,20 +76,14 @@ width: 75%;
 margin-top: 20px;
 float: left;
 width: 25%;
-background-color: #f1f1f1;
+background-color: #1112;
 padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-background-color: #aaa;
-width: 100%;
-padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
-background-color: white;
+background-color: #111d;
 padding: 20px;
 margin-top: 20px;
 }
@@ -92,42 +99,74 @@ clear: both;
 .footer {
 padding: 20px;
 text-align: center;
-background: #ddd;
+background: #111d;
 margin-top: 20px;
 }
+
+input[type="submit"] {
+    background-color:  black;
+    color: white;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #335384;
+    padding: 10px 10px;
+}
+input[type="email"] {
+    padding: 10px 10px;
+    width: 50%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
 
 .flex-container {
     display: flex;
 }
 
+.redes {
+    display: flex;
+}
+
 .imageone {
-    background-image: url("https://pbs.twimg.com/media/FsY8a3BXsAA3vOi.jpg");
+    background-image: url("https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png");
     background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 250px;
+    height: 80px;
+    width: 70px;
 }
 .imagetwo {
-    background-image: url("https://www.colegiosenbuenosaires.com/wp-content/uploads/2019/09/Instituto-Jos%C3%A9-Manuel-Estrada_en-Constituci%C3%B3n.png");
+    background-image: url("https://i.blogs.es/e7b69c/java_logo/650_1200.webp");
     background-size: cover;
-    height: 400px;
-    width: 250px;
+    height: 80px;
+    width: 80px;
 }
 
 .imagethree {
-    background-image: url("https://institutodeballroom.com.ar/wp-content/uploads/2024/02/Foto-de-universidad-utn-ba-buenos-aires.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png");
     background-size: cover;
     background-position: center;
-    height: 400px;
-    width: 250px;
+    height: 80px;
+    width: 80px;
 }
 
 .imagefour {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/La_Salle_Mollerussa_1.JPG/1280px-La_Salle_Mollerussa_1.JPG");
+    background-image: url("https://www.superbefilms.com/wp-content/uploads/2016/03/css-logo.png");
     background-size: cover;
     background-position: center;
-    height: 400px;
-    width: 250px;
+    height: 80px;
+    width: 80px;
+}
+
+.red1 {
+    background-image: url("https://i.pinimg.com/originals/83/08/ff/8308ff13effc2f0b1d64b6a08a618be8.png");
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
